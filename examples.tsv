@@ -1,0 +1,45 @@
+ID	DOCULECT	CONCEPT	TOKENS	ALIGNMENT	COGID	ALIGNMENT_B
+1	Proto-Mataguayan	caminar	w e l e k	w e - l e k	1	?
+2	Niwaclé	caminar	w a k l e tʃ	w a k l e tʃ	1	?
+11	Proto-Mataguayan	caminar	w e l e k	w e l e k	2	?
+12	Niwaclé	caminar	w a k.l e tʃ	w a k.l e tʃ	2	?
+3	Chorote	irse al monte	w i l i k	w i - l i k	1	?
+13	Chorote	irse al monte	w i l i k	w i l i k	2	?
+4	Wichi	viajar	w e l e k	w e - l e k	1	?
+14	Wichi	viajar	w e l e k	w e l e k	2	?
+21	Beijing	all	tɕʰ ɥ ɛ n ³⁵ + p u⁵¹	tɕʰ ɥ ɛ n ³⁵ + p u⁵¹ -	3	?
+22	Jinan	all	tɕʰ ɥ æ̃ ⁵³ + p u ³¹	tɕʰ ɥ æ̃ - ⁵³ + p u ³¹	3	?
+31	Beijing	all	tɕʰ.ɥ ɛ.n ³⁵ + p u ⁵¹	tɕʰ.ɥ ɛ.n ³⁵ + p u ⁵¹	4	?
+32	Jinan	all	tɕʰ.ɥ æ̃ ⁵³ + p u ³¹	tɕʰ.ɥ æ̃ ⁵³ + p u ³¹	4	?
+34	Apurimac	standˌ to	ʃ a j a	ʃ a j a	5	ʃ a.j.a
+35	Cuzco	standˌ to	ʃ a j a	ʃ a j a	5	ʃ a.j.a
+36	Pastaza	standˌ to	ʃ a j a	ʃ a j a	5	ʃ a.j.a
+37	Huanca	standˌ to	s aː	s aː - -	5	s aː
+38	Huaraz Huailas	standˌ to	s aː	s aː - -	5	s aː
+44	Apurimac	DESIDERATIVE	n a j a	n a j a	6	n a.j.a
+45	Cuzco	DESIDERATIVE	n a j a	n a j a	6	n a.j.a
+46	Pastaza	DESIDERATIVE	n a j ɑ	n a j ɑ	6	n a.j.a
+47	Huanca	DESIDERATIVE	n aː	n aː - -	6	n aː
+48	Huaraz Huailas	DESIDERATIVE	n aː	n aː - -	6	n aː
+#@highlight=TOKENS|ALIGNMENT|ALIGNMENTB
+#@sampa=TOKENS
+#@pinyin=
+#@css=menu:show|database:hide
+#@basics=ALIGNMENT|ALIGNMENTB|CONCEPT|DOCULECT
+#@_selected_doculects=Apurimac|Cuzco|Huanca|Huaraz Huailas|Pastaza
+#@_selected_concepts=caminar|irse al monte|viajar|all|standˌ to|DESIDERATIVE
+#@sorted_taxa=Apurimac|Beijing|Chorote|Cuzco|Huanca|Huaraz Huailas|Jinan|Niwaclé|Pastaza|Proto-Mataguayan|Wichi
+#@sorted_concepts=caminar|irse al monte|viajar|all|standˌ to|DESIDERATIVE
+#@display=filedisplay|settings
+#@missing_marker=Ø
+#@separator=	
+#@gap_marker=-
+#@formatter=COGID
+#@root_formatter=false
+#@note_formatter=undefined
+#@pattern_formatter=undefined
+#@publish=undefined
+#@_almcol=ALIGNMENT
+#@filename=examples.tsv
+#@navbar=true
+#@_morphology_mode=full
