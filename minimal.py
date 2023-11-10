@@ -18,7 +18,6 @@ def profile_sequence(string, segments, maxlen=None):
         
         # either add next element or don't
         next_element = rest[0]
-        next_string = rest[1:]
         combined_element = current_sequence[-1] + next_element
         clen = len(combined_element)
 
@@ -35,7 +34,6 @@ def profile_sequence(string, segments, maxlen=None):
                     length+1,
                     rest[1:]
                     ]]
-
         else:
             seqA = current_sequence[:-1]+[combined_element]
             seqB = current_sequence + [next_element]
@@ -44,6 +42,7 @@ def profile_sequence(string, segments, maxlen=None):
                 out += [seqA]
             if not [x for x in seqB if (x not in segments and len(x) > 1)]:
                 out += [seqB]
+    print(out)
     if out:
         return ' '.join(sorted(out, key=lambda x: len([y for y in x if y[0] !=
             '<']))[0])
@@ -71,8 +70,8 @@ def segment(sequence, profile, replace="Grouped", space="_"):
     return out
 
 
-wl = Wordlist("karen.tsv")
-prf = get_profile("karen-profile.tsv")
+wl = Wordlist("single_phone.tsv")
+prf = get_profile("single_ortho.tsv")
 
 table = []
 for idx, tokens_ in wl.iter_rows("tokens"):
@@ -83,5 +82,3 @@ for idx, tokens_ in wl.iter_rows("tokens"):
         input()
         
     table += [[idx, " ".join(tokens_), " ".join(segment(tokens_, prf))]]
-
-#print(tabulate(table[:20]))
