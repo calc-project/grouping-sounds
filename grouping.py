@@ -1,10 +1,8 @@
 """
 Code to group and ungroup segmens in comparative wordlists.
 """
-from lingpy.sequence.sound_classes import get_all_ngrams
-from lingpy import *
+from lingpy import Wordlist
 from csvw.dsv import UnicodeDictReader
-from tabulate import tabulate
 from unicodedata import normalize
 
 def profile_sequence(string, segments, maxlen=None):
@@ -37,6 +35,7 @@ def profile_sequence(string, segments, maxlen=None):
                     length+1,
                     rest[1:]
                     ]]
+
         else:
             seqA = current_sequence[:-1]+[combined_element]
             seqB = current_sequence + [next_element]
@@ -71,8 +70,6 @@ def segment(sequence, profile, replace="Grouped", space="_"):
             out += [rep]
     return out
 
-
-    
 
 wl = Wordlist("karen.tsv")
 prf = get_profile("karen-profile.tsv")
