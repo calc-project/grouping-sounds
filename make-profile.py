@@ -54,8 +54,9 @@ with open("karen-profile.tsv", "w") as f:
     f.write("Grapheme\tGrouped\tPlain\tFrequency\n")
     f.write("^\tNULL\tNULL\t\n")
     f.write("$\tNULL\tNULL\t\n")
+    f.write(" \tNULL\tNULL\t\n")
     for k, v in sorted(prf.items(), key=lambda x: x[1], reverse=True):
-        f.write("_".join(k)+"\t"+".".join(k)+"\t"+" ".join(k)+"\t"+str(v)+"\n")
+        f.write(" ".join(k)+"\t"+".".join(k)+"\t"+" ".join(k)+"\t"+str(v)+"\n")
 wl.output("tsv", filename="karen", ignore="all", prettify=False)
 print("Created Profile and Downloaded the Wordlist.")
 
