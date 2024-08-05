@@ -6,7 +6,7 @@ Original study:
 
 ## Installation
 
-You will need `pyedictor` and `lingpy` as outlined in `requirements.txt`. Install all dependencies with `pip` as follows:
+You will need `pyedictor`, `linse` and `lingpy` as outlined in `requirements.txt`. Install all dependencies with `pip` as follows:
 
 ```
 pip install -r requirements.txt
@@ -30,4 +30,4 @@ The profile itself can be found in file `karen-profile.tsv`.
 
 ## Check Examples in EDICTOR
 
-The file `examples.tsv` can be readily loaded into the [EDICTOR](https://digling.org/edictor) and from there, you can access the new formats that we introduced for grouped sounds.
+The file `examples.tsv` can be readily loaded into the [EDICTOR](https://edictor.org) and from there, you can access the new formats that we introduced for grouped sounds.
